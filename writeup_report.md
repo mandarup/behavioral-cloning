@@ -85,7 +85,7 @@ For details about how I created the training data, see the next section.
 
 #### 1. Solution Design Approach
 
-The overall strategy for deriving a model architecture was to ...
+The overall strategy for deriving a model architecture was to start from a tried and tested model from project 2 and then play with the architecture. I did not have to modify architecture much.
 
 My first step was to use a convolution neural network model similar to the I used for Traffic sign classifier (LeNet variant). 
 
