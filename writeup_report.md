@@ -44,19 +44,7 @@ The model.py file contains the code for training and saving the convolution neur
 
 Modes is derived from LeNet architecure, here is a detailed view of architecture employed:
 
-
-```python
-from IPython.display import SVG
-SVG(model_to_dot(model).create(prog='dot', format='svg'))
-
-```
-
-
-
-
-![svg](output_1_0.svg)
-
-
+![layout](./images/model-architecture.png)
 
 
 The model includes RELU layers to introduce nonlinearity (code line 20), and the data is normalized in the model using a Keras lambda layer (code line 18). 
